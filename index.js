@@ -38,6 +38,7 @@ function prependDriver() {
 
 function removeLastDriver() {
 const buttlessDrivers = drivers.slice(0,2);
+return buttlessDrivers
 }
 
 function removeFirstDriver() {
